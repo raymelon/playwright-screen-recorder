@@ -4,6 +4,12 @@ This is a modified version of [prasanaworld/puppeteer-screen-recorder](https://g
 
 [![NPM](https://nodei.co/npm/playwright-screen-recorder.png)](https://npmjs.org/package/playwright-screen-recorder)
 
+### Installation Guide
+
+```sh
+npm install playwright-screen-recorder
+```
+
 # Original README from [prasanaworld/puppeteer-screen-recorder](https://github.com/prasanaworld/puppeteer-screen-recorder):
 
 # <img alt="puppeteer screen recorder logo" width="128px" src="https://github.com/prasanaworld/puppeteer-screen-recorder/blob/main/asserts/puppeteer-screen-recorder.png" /> puppeteer-screen-recorder
