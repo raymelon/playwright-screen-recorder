@@ -1,3 +1,9 @@
+# playwright-screen-recorder
+
+This is a modified version of [prasanaworld/puppeteer-screen-recorder](https://github.com/prasanaworld/puppeteer-screen-recorder) for [Playwright](https://playwright.dev)
+
+# Original README from [prasanaworld/puppeteer-screen-recorder](https://github.com/prasanaworld/puppeteer-screen-recorder):
+
 # <img alt="puppeteer screen recorder logo" width="128px" src="https://github.com/prasanaworld/puppeteer-screen-recorder/blob/main/asserts/puppeteer-screen-recorder.png" /> puppeteer-screen-recorder
 
 A puppeteer Plugin that uses the native [chrome devtool protocol](https://chromedevtools.github.io/devtools-protocol/tot/Page/#method-startScreencast) for capturing video frame by frame. Also supports an option to follow pages that are opened by the current page object.
@@ -39,7 +45,8 @@ By helping your company become a Github Sponsor, you will not only feel great ab
 
 ## Getting Started
 
-### How to use 
+### How to use
+
 ![How to use](https://raw.githubusercontent.com/prasanaworld/puppeteer-screen-recorder/main/asserts/video_demo.gif)
 
 ### Installation Guide
@@ -184,7 +191,6 @@ Adopted Chromium principles such as Speed, Security, Stability and Simplicity. I
 ### 5. Supports multiple video format and stream
 
 Supports multiple video format like AVI, MP4, MOV and WEBM. Enable support for writable or duplex stream for process the output streaming .
-
 
 ## FAQ
 
