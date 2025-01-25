@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events';
 
-import { CDPSession, Page } from 'puppeteer';
+import { CDPSession, Page } from 'playwright';
 
 import { PuppeteerScreenRecorderOptions } from './pageVideoStreamTypes';
 
@@ -27,8 +27,7 @@ export class pageVideoStreamCollector extends EventEmitter {
 
   private async getPageSession(page: Page): Promise<CDPSession | null> {
     try {
-      const context = page.target();
-      return await context.createCDPSession();
+      return await page.context().newCDPSession(page);
     } catch (error) {
       console.log('Failed to create CDP Session', error);
       return null;
