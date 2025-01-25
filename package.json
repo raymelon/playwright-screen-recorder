@@ -1,40 +1,21 @@
 {
-  "name": "puppeteer-screen-recorder",
-  "version": "3.0.6",
-  "description": "A puppeteer Plugin that uses the native chrome devtool protocol for capturing video frame by frame. Also supports an option to follow pages that are opened by the current page object",
+  "name": "playwright-screen-recorder",
+  "version": "1.0.0",
+  "description": "A Playwright version of puppeteer-screen-recorder: A puppeteer Plugin that uses the native chrome devtool protocol for capturing video frame by frame. Also supports an option to follow pages that are opened by the current page object",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/prasanaworld/puppeteer-screen-recorder",
+  "repository": "https://github.com/raymelon/playwright-screen-recorder",
   "author": {
-    "name": "Prasana Kannan",
-    "url": "https://www.linkedin.com/in/prasanakannan/",
-    "email": "prasanaworld@gmail.com"
+    "name": "Raymel Francisco",
+    "url": "https://www.linkedin.com/in/ramymelfrancisco/",
+    "email": "franciscoraymel@gmail.com"
   },
-  "sponsor": {
-    "url": "https://opencollective.com/puppeteer-screen-recorder"
-  },
-  "funding": [
-    {
-      "type": "individual",
-      "url": "https://github.com/sponsors/prasanaworld/dashboard/tiers?frequency=one-time"
-    },
-    {
-      "type": "individual",
-      "url": "https://opencollective.com/puppeteer-screen-recorder"
-    },
-    {
-      "type": "corporate",
-      "url": "https://github.com/sponsors/prasanaworld/dashboard/tiers"
-    },
-    {
-      "type": "corporate",
-      "url": "https://opencollective.com/puppeteer-screen-recorder"
-    }
-  ],
-  "homepage": "https://prasanaworld.github.io/puppeteer-screen-recorder/",
+  "homepage": "https://github.com/raymelon/playwright-screen-recorder/",
   "license": "MIT",
   "keywords": [
+    "playwright",
+    "modified",
     "puppeteer",
     "screen",
     "screen recorder",
@@ -42,6 +23,8 @@
     "video recorder",
     "test case capture",
     "test case video recorder",
+    "playwright plugin",
+    "playwright library",
     "puppeteer plugin",
     "puppeteer library",
     "video",
